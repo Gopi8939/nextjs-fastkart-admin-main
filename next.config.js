@@ -7,7 +7,7 @@ const nextConfig = {
     // API_PROD_URL: "127.0.0.1:8000/api/",
 
     //For Production
-    API_PROD_URL: "https://fastkart-backend-api.onrender.com/api/",
+    API_PROD_URL: "https://testapis.aenow.online/api/",
     
   },
   redirects: async () => {
@@ -32,7 +32,7 @@ const nextConfig = {
       // },
       {
         protocol: "https",
-        hostname: "fastkart-backend-api.onrender.com",
+        hostname: "testapis.aenow.online",
       },
     ],
   },
